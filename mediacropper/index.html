@@ -8,13 +8,13 @@
   </head>
 
   <body>
+  <script src="./media-cropper.js"></script>
     Drag a rect over the picture for cropping
     <img id="pic" onload="init();" src="http://gallery.photo.net/photo/9427655-lg.jpg"
          alt="randomPic">
     <!--<img id="pic" src="./prater.gif" alt="randomPic">-->
 
     <div id="cropped"></div>
-    <script src="./media-cropper.js"></script>
     <script>
       function init(){
         var mediaCropper = new MediaCropper(document.getElementById('pic'));
