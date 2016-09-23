@@ -1,0 +1,64 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>My Trip to Iceland</title>
+  <meta name="description" content="Iceland Photo Tour">
+  <meta name="author" content="Matthias Klan">
+
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <script src="./css.js"></script>
+
+  <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
+</head>
+
+<body class="flexbody">
+  <div id="overlay" class="overlay lightdark_overlay"></div>
+  <header id="header">
+    <div id="headingWrapper">
+      <h2 class="heading" id="secondaryHeading">MY TRIP TO</h2>
+      <h1 class="heading" id="mainHeading">ICELAND</h1>
+    </div>
+  </header>
+  <div class="contentWrapper">
+      <main class="content container-fluid">
+        <div id="galleryLinkWrapper" class="row h_centerd_row v_centerd_row">
+           <a id="galleryLink" href="#">open Gallery</a>
+        </div>
+        <div id="carouselWrapper" class="row h_centerd_row v_centerd_row hide">
+          <div class="item-lg-1 item-sm-0 item-xs-0"></div>
+          <div class="item-lg-1 item-sm-1  item-xs-1 h_centerd_row v_centerd_row">
+              <div id="prevButton" class="crButton prevButton"></div>
+          </div>
+          <div id="carousel" class="item-lg-6 item-md-10 item-sm-10 item-xs-10 h_centerd_row"></div>
+          <div class="item-lg-1 item-sm-1  item-xs-1 h_centerd_row v_centerd_row">
+              <div id="nextButton" class="crButton nextButton"></div>
+          </div>
+          <div class="item-lg-1 item-sm-0  item-xs-0"></div>
+        </div>
+      </main>
+  </div>
+  <footer>
+    <div class="container-fluid">
+      <div class="row">
+            <div class="item-lg-9 item-md-8 item-xs-7 item-sm-7"></div>
+            <div class="item-lg-3 item-md-4 item-xs-5 item-sm-5 h_right_row">
+               <div id="contact">
+                <a href="https://github.com/matthiasklan" id="githublink"></a>
+                 <div id="contact-left">
+                      <p>© 2016 Matthias Klan</p>
+                      <a href="mailto:matthias.klan@gmail.com">matthias.klan@gmail.com</a>
+                 </div>
+               </div>
+            </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./bundle.js"></script>
+</body>
+</html>
