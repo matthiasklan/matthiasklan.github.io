@@ -1,14 +1,13 @@
 CACHE MANIFEST
-#ver:7/6/2017, 2:21:42 AM
+#ver:7/8/2017, 1:13:21 AM
 #plugin:4.8.1
 
 CACHE:
-../qrcode.05fe8e8b.jpg
-../vendor.f2e9b41e.js
-../app.9ed2ed59.js
-../manifest.js
-../app.139a3e57.css
-../
+/vendor.d65187c2.js
+/app.cae2644d.js
+/manifest.e66c4891.js
+/app.139a3e57.css
+/
 
 NETWORK:
 *
